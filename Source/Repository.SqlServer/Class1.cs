@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Repostiory.Data.Interface
+namespace Repository.SqlServer
 {
     public class Class1
     {

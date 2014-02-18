@@ -1,7 +1,17 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2012
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Repository.Business", "Repository.Business\Repository.Business.csproj", "{59F74DB7-802A-44F0-BE87-B8DA575CECE8}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "10.Repository.Business", "Repository.Business\10.Repository.Business.csproj", "{59F74DB7-802A-44F0-BE87-B8DA575CECE8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "07.Repostiory.Data.Interface", "..\Repostiory.Data.Interface\07.Repostiory.Data.Interface.csproj", "{35D231EC-7334-4BE7-88D7-FAB55743A27B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "09.Repository.Data.NHibernate", "Repository.Data.NHibernate\09.Repository.Data.NHibernate.csproj", "{01BB387C-73C2-45BC-A37B-183374065573}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02.Repository.Entity", "Repository.Entity\02.Repository.Entity.csproj", "{01082043-E5B4-4FA7-8D75-EECABC492CFD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "09t.Repository.Data.NHibernate.Test", "Repository.Data.NHibernate.Test\09t.Repository.Data.NHibernate.Test.csproj", "{943B57E9-FEB2-40B5-B624-8CC922DE3C0F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Repository.SqlServer", "Repository.SqlServer\Repository.SqlServer.csproj", "{81DA7B7C-46C1-44DA-A73A-3A3CB20089B7}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -13,6 +23,26 @@ Global
 		{59F74DB7-802A-44F0-BE87-B8DA575CECE8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{59F74DB7-802A-44F0-BE87-B8DA575CECE8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{59F74DB7-802A-44F0-BE87-B8DA575CECE8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{35D231EC-7334-4BE7-88D7-FAB55743A27B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{35D231EC-7334-4BE7-88D7-FAB55743A27B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{35D231EC-7334-4BE7-88D7-FAB55743A27B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{35D231EC-7334-4BE7-88D7-FAB55743A27B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{01BB387C-73C2-45BC-A37B-183374065573}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{01BB387C-73C2-45BC-A37B-183374065573}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{01BB387C-73C2-45BC-A37B-183374065573}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{01BB387C-73C2-45BC-A37B-183374065573}.Release|Any CPU.Build.0 = Release|Any CPU
+		{01082043-E5B4-4FA7-8D75-EECABC492CFD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{01082043-E5B4-4FA7-8D75-EECABC492CFD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{01082043-E5B4-4FA7-8D75-EECABC492CFD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{01082043-E5B4-4FA7-8D75-EECABC492CFD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{943B57E9-FEB2-40B5-B624-8CC922DE3C0F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{943B57E9-FEB2-40B5-B624-8CC922DE3C0F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{943B57E9-FEB2-40B5-B624-8CC922DE3C0F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{943B57E9-FEB2-40B5-B624-8CC922DE3C0F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{81DA7B7C-46C1-44DA-A73A-3A3CB20089B7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{81DA7B7C-46C1-44DA-A73A-3A3CB20089B7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{81DA7B7C-46C1-44DA-A73A-3A3CB20089B7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{81DA7B7C-46C1-44DA-A73A-3A3CB20089B7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
