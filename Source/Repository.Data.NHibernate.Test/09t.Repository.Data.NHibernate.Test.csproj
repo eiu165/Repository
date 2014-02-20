@@ -68,10 +68,6 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\..\Repostiory.Data.Interface\07.Repostiory.Data.Interface.csproj">
-      <Project>{35d231ec-7334-4be7-88d7-fab55743a27b}</Project>
-      <Name>07.Repostiory.Data.Interface</Name>
-    </ProjectReference>
     <ProjectReference Include="..\Repository.Data.NHibernate\09.Repository.Data.Hibernate.csproj">
       <Project>{01bb387c-73c2-45bc-a37b-183374065573}</Project>
       <Name>09.Repository.Data.Hibernate</Name>
@@ -79,6 +75,10 @@
     <ProjectReference Include="..\Repository.Entity\02.Repository.Entity.csproj">
       <Project>{01082043-e5b4-4fa7-8d75-eecabc492cfd}</Project>
       <Name>02.Repository.Entity</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Repostiory.Data.Interface\07.Repostiory.Data.Interface.csproj">
+      <Project>{35d231ec-7334-4be7-88d7-fab55743a27b}</Project>
+      <Name>07.Repostiory.Data.Interface</Name>
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>

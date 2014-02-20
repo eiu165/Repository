@@ -43,7 +43,7 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\Source\Repository.Entity\02.Repository.Entity.csproj">
+    <ProjectReference Include="..\Repository.Entity\02.Repository.Entity.csproj">
       <Project>{01082043-e5b4-4fa7-8d75-eecabc492cfd}</Project>
       <Name>02.Repository.Entity</Name>
     </ProjectReference>
