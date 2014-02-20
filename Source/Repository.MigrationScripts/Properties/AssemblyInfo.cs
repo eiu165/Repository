@@ -5,12 +5,12 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following 
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("Repository.SqlServer")]
+[assembly: AssemblyTitle("Repository.MigrationScripts")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("Repository.SqlServer")]
-[assembly: AssemblyCopyright("Copyright ©  2014")]
+[assembly: AssemblyCompany("Aspen Marketing Services")]
+[assembly: AssemblyProduct("Repository.MigrationScripts")]
+[assembly: AssemblyCopyright("Copyright © Aspen Marketing Services 2014")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
 
@@ -20,7 +20,7 @@ using System.Runtime.InteropServices;
 [assembly: ComVisible(false)]
 
 // The following GUID is for the ID of the typelib if this project is exposed to COM
-[assembly: Guid("0f64671c-7e7e-4bf9-a953-09d373f0b4dc")]
+[assembly: Guid("52263e86-ec4a-42b4-bfbd-0a569e8f8525")]
 
 // Version information for an assembly consists of the following four values:
 //
