@@ -11,7 +11,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02.Repository.Entity", "Rep
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "09t.Repository.Data.NHibernate.Test", "Repository.Data.NHibernate.Test\09t.Repository.Data.NHibernate.Test.csproj", "{943B57E9-FEB2-40B5-B624-8CC922DE3C0F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Repository.SqlServer", "Repository.SqlServer\Repository.SqlServer.csproj", "{81DA7B7C-46C1-44DA-A73A-3A3CB20089B7}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "06.Repository.SqlServer", "Repository.SqlServer\06.Repository.SqlServer.csproj", "{81DA7B7C-46C1-44DA-A73A-3A3CB20089B7}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
