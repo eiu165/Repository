@@ -5,7 +5,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "10.Repository.Business", "R
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "07.Repostiory.Data.Interface", "..\Repostiory.Data.Interface\07.Repostiory.Data.Interface.csproj", "{35D231EC-7334-4BE7-88D7-FAB55743A27B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "09.Repository.Data.NHibernate", "Repository.Data.NHibernate\09.Repository.Data.NHibernate.csproj", "{01BB387C-73C2-45BC-A37B-183374065573}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "09.Repository.Data.Hibernate", "Repository.Data.NHibernate\09.Repository.Data.Hibernate.csproj", "{01BB387C-73C2-45BC-A37B-183374065573}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02.Repository.Entity", "Repository.Entity\02.Repository.Entity.csproj", "{01082043-E5B4-4FA7-8D75-EECABC492CFD}"
 EndProject
