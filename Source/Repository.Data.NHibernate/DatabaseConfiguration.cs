@@ -11,7 +11,7 @@ namespace Repository.Data.Hibernate
 {
     public class DatabaseConfiguration
     {
-        private static string  _connectionString = @"Data Source=.\sqlexpress; Database=Repository;Integrated Security=true;";
+        private static string  _connectionString = @"Data Source=.; Database=Repository;Integrated Security=true;";
 
         public static ISessionFactory CreateSessionFactory()
         {
