@@ -34,7 +34,8 @@
                     foreach(var config in configs)
                     {
                         Console.WriteLine(config.ToString());
-                    }
+                    } 
+                    Assert.AreEqual(3, configs.Count);
                 }
             }
         }
