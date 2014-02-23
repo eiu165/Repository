@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2012
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "10.Repository.Business", "Repository.Business\10.Repository.Business.csproj", "{59F74DB7-802A-44F0-BE87-B8DA575CECE8}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "80.Repository.Business", "Repository.Business\80.Repository.Business.csproj", "{59F74DB7-802A-44F0-BE87-B8DA575CECE8}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "09.Repository.Data.Hibernate", "Repository.Data.NHibernate\09.Repository.Data.Hibernate.csproj", "{01BB387C-73C2-45BC-A37B-183374065573}"
 EndProject
@@ -13,7 +13,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "07.Repostiory.Data.Interfac
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "04.Repository.MigrationScripts", "Repository.MigrationScripts\04.Repository.MigrationScripts.csproj", "{7A799E77-15A8-4ECA-8E4E-DE4FEAA241CD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Repository.Web", "Repository.Web\Repository.Web.csproj", "{74C11FB2-7635-4082-82ED-C824D035663E}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "95.Repository.Web", "Repository.Web\95.Repository.Web.csproj", "{74C11FB2-7635-4082-82ED-C824D035663E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
