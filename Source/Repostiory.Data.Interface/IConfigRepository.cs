@@ -9,7 +9,6 @@ namespace Repostiory.Data.Interface
 {
     public interface IConfigRepository
     {
-        Config Get(int Id);
         Config Get(string name);
         IEnumerable<Config> Get();
     }

@@ -68,6 +68,14 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\Framework.Data\10.Framework.Data.csproj">
+      <Project>{5fb20e7c-202d-421f-a0f7-5b9ac2e3adb3}</Project>
+      <Name>10.Framework.Data</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Framework.Entity\02.Framework.Entity.csproj">
+      <Project>{7881c85e-5c56-494d-967b-4ac9e9fd1eec}</Project>
+      <Name>02.Framework.Entity</Name>
+    </ProjectReference>
     <ProjectReference Include="..\Repository.Data.NHibernate\09.Repository.Data.Hibernate.csproj">
       <Project>{01bb387c-73c2-45bc-a37b-183374065573}</Project>
       <Name>09.Repository.Data.Hibernate</Name>

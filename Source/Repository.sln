@@ -1,6 +1,8 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2012
+# Visual Studio 2013
+VisualStudioVersion = 12.0.21005.1
+MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "80.Repository.Business", "Repository.Business\80.Repository.Business.csproj", "{59F74DB7-802A-44F0-BE87-B8DA575CECE8}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "09.Repository.Data.Hibernate", "Repository.Data.NHibernate\09.Repository.Data.Hibernate.csproj", "{01BB387C-73C2-45BC-A37B-183374065573}"
@@ -14,6 +16,14 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "04.Repository.MigrationScripts", "Repository.MigrationScripts\04.Repository.MigrationScripts.csproj", "{7A799E77-15A8-4ECA-8E4E-DE4FEAA241CD}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "95.Repository.Web", "Repository.Web\95.Repository.Web.csproj", "{74C11FB2-7635-4082-82ED-C824D035663E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Framework", "Framework", "{77A30624-F6FC-4D9D-A523-1D2BECC46D3B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "10.Framework.Data", "Framework.Data\10.Framework.Data.csproj", "{5FB20E7C-202D-421F-A0F7-5B9AC2E3ADB3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02.Framework.Entity", "Framework.Entity\02.Framework.Entity.csproj", "{7881C85E-5C56-494D-967B-4AC9E9FD1EEC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01.Framework.Common", "Framework.Common\01.Framework.Common.csproj", "{B91EB6BA-73F7-4265-A539-65E64DA7B23D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -49,8 +59,25 @@ Global
 		{74C11FB2-7635-4082-82ED-C824D035663E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{74C11FB2-7635-4082-82ED-C824D035663E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{74C11FB2-7635-4082-82ED-C824D035663E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5FB20E7C-202D-421F-A0F7-5B9AC2E3ADB3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5FB20E7C-202D-421F-A0F7-5B9AC2E3ADB3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5FB20E7C-202D-421F-A0F7-5B9AC2E3ADB3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5FB20E7C-202D-421F-A0F7-5B9AC2E3ADB3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7881C85E-5C56-494D-967B-4AC9E9FD1EEC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7881C85E-5C56-494D-967B-4AC9E9FD1EEC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7881C85E-5C56-494D-967B-4AC9E9FD1EEC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7881C85E-5C56-494D-967B-4AC9E9FD1EEC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B91EB6BA-73F7-4265-A539-65E64DA7B23D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B91EB6BA-73F7-4265-A539-65E64DA7B23D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B91EB6BA-73F7-4265-A539-65E64DA7B23D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B91EB6BA-73F7-4265-A539-65E64DA7B23D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{5FB20E7C-202D-421F-A0F7-5B9AC2E3ADB3} = {77A30624-F6FC-4D9D-A523-1D2BECC46D3B}
+		{7881C85E-5C56-494D-967B-4AC9E9FD1EEC} = {77A30624-F6FC-4D9D-A523-1D2BECC46D3B}
+		{B91EB6BA-73F7-4265-A539-65E64DA7B23D} = {77A30624-F6FC-4D9D-A523-1D2BECC46D3B}
 	EndGlobalSection
 EndGlobal
